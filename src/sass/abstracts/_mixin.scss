@@ -1,0 +1,11 @@
+@import './breakpoints';
+
+@mixin mediaQ($size){
+    @media (max-width: map-get($breakpoints, $size)) {
+        @content;
+    }
+}
+
+@mixin checkBox {
+    padding: 0;
+}

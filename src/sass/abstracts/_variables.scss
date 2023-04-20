@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Alexandria-Bold;
+    src: url('../font/Alexandria-Bold.ttf');
+}
+
+@font-face {
+    font-family: Alexandria-light;
+    src: url('../font/Alexandria-Light.ttf');
+}
+
+@font-face {
+    font-family: Alexandria-Medium;
+    src: url('../font/Alexandria-Medium.ttf');
+}
+
+@font-face {
+    font-family: Alexandria-Regular;
+    src: url('../font/Alexandria-Regular.ttf');
+}
+
+$alexandria-regular: Alexandria-Regular;
+$white-color: white;
+$cursor-pointer: pointer;
